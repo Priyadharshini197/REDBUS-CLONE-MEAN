@@ -101,10 +101,6 @@ To contribute to TedBus, follow these steps:
 4. Push to the branch (`git push origin feature-name`)
 5. Create a new Pull Request
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 If you want to contact me, you can reach me at [girishmaharana42@gmail.com ].
