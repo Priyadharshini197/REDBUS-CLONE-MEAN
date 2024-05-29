@@ -69,7 +69,7 @@ The backend server will run on `http://localhost:5000`.
 1. Navigate to the `client` directory
 
     ```bash
-    cd client
+    cd frontend
     ```
 
 2. Install frontend dependencies
