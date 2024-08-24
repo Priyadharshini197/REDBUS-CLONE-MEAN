@@ -20,7 +20,7 @@ ngOnInit(): void {
 
 
   google.accounts.id.initialize({
-    client_id:"YOUR CLIENT ID",
+    client_id:"129421237209-jricn8ed4fgld4glk6k716deq5ebsmpb.apps.googleusercontent.com",
     callback:(response:any)=>{this.handlelogin(response);
 
     }
