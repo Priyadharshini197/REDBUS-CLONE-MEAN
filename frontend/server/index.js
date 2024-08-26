@@ -14,7 +14,7 @@ app.use(bookingroute)
 app.use(routesroute)
 app.use(customerroutes)
 
-const DBURL="YOUR DB URL"
+const DBURL="mongodb+srv://admin:admin@tedbus.vqk1yid.mongodb.net/?retryWrites=true&w=majority&appName=tedbus"
 mongoose.connect(DBURL)
 .then(()=> console.log("Mongodb connected"))
 .catch(err=> console.error('Mongodb connection error:' ,err))
