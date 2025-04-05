@@ -27,3 +27,5 @@ const PORT= 5000
 app.listen(PORT,()=>{
     console.log(`server is running on port ${PORT}`)
 })
+const busHireRoutes = require('./routes/busHire.routes');
+app.use('/api/bus-hire', busHireRoutes);
